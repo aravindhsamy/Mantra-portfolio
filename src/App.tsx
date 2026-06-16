@@ -478,7 +478,7 @@ function App() {
         </div>
 
         <h5>
-          Mock Interviews
+          Mock Test.
         </h5>
 
         <p>
