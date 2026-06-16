@@ -170,8 +170,7 @@ function App() {
       <div className="timeline-item">
         <h5>Week 7-8</h5>
         <p>
-          DBMS, Operating Systems,
-          Computer Networks
+          System Design
         </p>
       </div>
 
@@ -355,34 +354,6 @@ function App() {
         <div className="stat-card">
           <i className="bi bi-columns-gap fs-1 text-primary"></i>
           <h5 className="mt-3">System Design</h5>
-        </div>
-      </div>
-
-      <div className="col-lg-3 col-md-6">
-        <div className="stat-card">
-          <i className="bi bi-database fs-1 text-primary"></i>
-          <h5 className="mt-3">DBMS</h5>
-        </div>
-      </div>
-
-      <div className="col-lg-3 col-md-6">
-        <div className="stat-card">
-          <i className="bi bi-hdd-network fs-1 text-primary"></i>
-          <h5 className="mt-3">Operating Systems</h5>
-        </div>
-      </div>
-
-      <div className="col-lg-3 col-md-6">
-        <div className="stat-card">
-          <i className="bi bi-router fs-1 text-primary"></i>
-          <h5 className="mt-3">Computer Networks</h5>
-        </div>
-      </div>
-
-      <div className="col-lg-3 col-md-6">
-        <div className="stat-card">
-          <i className="bi bi-person-workspace fs-1 text-primary"></i>
-          <h5 className="mt-3">Interview Skills</h5>
         </div>
       </div>
 
@@ -659,6 +630,42 @@ function App() {
 
             <a
               href="https://www.saiuniversity.edu.in/saiu-faculties/dr.-krishna-kant-singh"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
+              View Profile
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      {/* Dr Mariya celin */}
+
+      <div className="col-lg-4 col-md-6">
+
+        <div className="mentor-card">
+
+          <img
+            src="/faculty/mc.avif"
+            alt="Dr mariya celin"
+            className="mentor-image mx-auto d-block"
+          />
+
+          <div className="mentor-content">
+
+            <h4>
+              Dr. Mariya Celin
+            </h4>
+
+            <p className="mentor-role">
+              Assistant Professor
+            </p>
+
+            <a
+              href="https://www.saiuniversity.edu.in/saiu-faculties/mariya-celin-t-a"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
