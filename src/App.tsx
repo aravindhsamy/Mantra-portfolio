@@ -129,6 +129,56 @@ function App() {
         </div>
 
       </section>
+
+      {/* PROGRAM SCHEDULE */}
+
+<section className="section-padding bg-light-custom">
+
+  <div className="container text-center">
+
+    <h2 className="section-title">
+      Program Schedule
+    </h2>
+
+    <p className="section-subtitle">
+      Important dates and session timings.
+    </p>
+
+    <div className="row g-4 justify-content-center">
+
+      <div className="col-md-3">
+        <div className="stat-card">
+          <h5>Mode</h5>
+          <p>Online</p>
+        </div>
+      </div>
+
+      <div className="col-md-3">
+        <div className="stat-card">
+          <h5>Duration</h5>
+          <p>15 June – 2 August 2026</p>
+        </div>
+      </div>
+
+      <div className="col-md-3">
+        <div className="stat-card">
+          <h5>Saturday</h5>
+          <p>7:00 PM – 8:00 PM</p>
+        </div>
+      </div>
+
+      <div className="col-md-3">
+        <div className="stat-card">
+          <h5>Sunday</h5>
+          <p>11:00 AM – 12:00 PM</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* ROADMAP */}
 
 <section
@@ -189,6 +239,7 @@ function App() {
   </div>
 
 </section>
+      
 {/* CAREER TRACKS */}
 
 <section
