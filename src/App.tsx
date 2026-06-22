@@ -8,7 +8,7 @@ function App() {
         <div className="container">
 
           <a className="navbar-brand" href="#">
-            PRISM
+            PRISM-2026
           </a>
 
           <button
